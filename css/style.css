@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Prosto+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+.header__bottom{
+	background: url(../img/header_bottom.png);
+	width: 100%;
+	height: 655px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header__top{
+	background: #282828;
+}
+
+.container{
+	max-width: 1120px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+}
+
+.header__logo{
+	margin: 10px;
+}
+
+.nav__list{
+	display: flex;
+}
+
+.nav__link{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 24px;
+	text-align: right;
+	color: #FFFFFF;
+	padding: 0 18px;
+	transition: .3s;
+}
+
+.nav__link:hover{
+	color: #e3dfde;
+}
+
+.icon{
+	display: flex;
+	margin-left: 45vw;
+}
+
+.icon>i{
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.icon>i:hover{
+	color: #e3dfde;
+}
+
+.header__bottom-inner{
+	height: 55vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__bottom-inner>.header__title{
+	font-family: Prosto One;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 75px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+.header__bottom-inner>.header__link{
+	background: #FFFFFF;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 24px;
+	padding: 13px 30px;
+	color: #222;
+	transition: .3s;
+}
+
+.header__bottom-inner>.header__link>.btn{
+	padding: 0 5px;
+}
+
+.header__bottom-inner>.header__link:hover{
+	background: #F2F2F2;
+}
+
+.main{
+	background: url(../img/bg.png);
+	width: 100%;
+	height: 2000px;
+}
+
+.section1_inner{
+	display: flex;
+	align-items: flex-start;
+	padding: 120px 0 50px 30px;
+	gap: 50px;
+}
+
+.section1_inner>.section_txt{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.section2_inner{
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	gap: 50px;
+	margin-bottom: 55px;
+}
+
+.section2_inner>.section_txt1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.section3_inner{
+	display: flex;
+	align-items: center;
+	margin-bottom: 120px;
+}
+
+.section3_inner>.section3_txt3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	color: #FFFFFF;
+	text-align: right;
+	margin: 0 20px;
+}
+
+.section3_inner>.section3_txt31{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0 10px;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.flex>.product_card1{
+	width: 255px;
+	height: 312px;
+	background: #FFFFFF;
+	border-radius: 6px;
+}
+
+.flex>.product_card1>.product_title1{
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 24px;
+	color: #000000;
+	margin: 15px 0;
+}
+
+.flex>.product_card1>.product_sarlavha1{
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #555;
+}
+
+.flex>.product_card2{
+	width: 255px;
+	height: 312px;
+	background: #FFFFFF;
+	border-radius: 6px;
+}
+
+.flex>.product_card2>.product_title2{
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 24px;
+	color: #000000;
+	margin: 15px 0;
+}
+
+.flex>.product_card3{
+	width: 255px;
+	height: 312px;
+	background: #FFFFFF;
+	border-radius: 6px;
+}
+
+.flex>.product_card3>.product_title3{
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 24px;
+	color: #000000;
+	margin: 15px 0;
+}
+
+.flex>.product_card4{
+	width: 255px;
+	height: 312px;
+	background: #FFFFFF;
+	border-radius: 6px;
+}
+
+.flex>.product_card4>.product_title4{
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 24px;
+	color: #000000;
+	margin: 15px 0;
+}
+
+.product_img{
+	margin: 10px 0 10px;
+}
+
+.product_sarlavha{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.product_link{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #151515;
+	padding: 7px 57px;
+	transition: .3s;
+}
+
+.product_link:hover{
+	background: #3b3b3b;
+}
+
+.footer{
+	background: #282828;
+	padding: 70px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.footer_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_list{
+	display: flex;
+}
+
+.footer_link{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	transition: .3s;
+}
+
+.footer_link:hover{
+	color: #F2F2F2;
+}
+
+.footer_nav1{
+	display: flex;
+	gap: 20px;
+}
